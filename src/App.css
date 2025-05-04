@@ -1,0 +1,51 @@
+.background {
+  background-image: url("/images/under.jpg"); /* from public root */
+  background-size: cover;
+  background-position: center;
+  position: fixed; /* make it cover entire screen, stay fixed */
+  top: 0;
+  left: 0;
+  width: 100vw; /* full viewport width */
+  height: 100vh; /* full viewport height */
+  background-size: cover; /* make image cover the area */
+  background-position: center; /* center image nicely */
+  background-repeat: no-repeat; /* no tiling */
+}
+h1 {
+  color: black;
+  text-align: center;
+  font-size: 3rem;
+  margin-top: 20px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  font-family: "Arial", sans-serif;
+  font-weight: bold;
+}
+.animal-container {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.animal-image {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  cursor: pointer;
+  border-radius: 10px;
+  transition: transform 0.2s;
+  user-select: none; /* Prevents text selection on click */
+  margin: 20px;
+}
+
+.animal-image:hover {
+  transform: scale(1.05);
+}
+
+.background {
+  text-align: center;
+  padding: 20px;
+}
+h2 {
+  color: black;
+}
