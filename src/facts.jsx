@@ -10,7 +10,7 @@ export const animals = {
   lobster: {
     image: ["/images/lobster.jpeg", "/images/lobster2.jpg"],
     facts: [
-      "Lobsters taste with their legs!",
+      "Lobsters taste with their legs",
       "Lobsters chew with their stomachs!",
       "Lobsters can live as long as 100 years.",
     ],
